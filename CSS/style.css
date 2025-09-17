@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.app {
+  max-width: 1000px;
+  margin: auto;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.board {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.column {
+  background: #fff;
+  border-radius: 8px;
+  padding: 10px;
+  flex: 1;
+  min-height: 400px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.task {
+  background: #e6e6e6;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: grab;
+}
+
+.task:active {
+  cursor: grabbing;
+}
